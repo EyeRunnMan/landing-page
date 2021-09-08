@@ -1,0 +1,194 @@
+@font-face {
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/arvo/v14/tDbD2oWUg0MKqScQ7Q.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+* {
+  margin: 0px;
+  font-family: Arvo;
+  /* border: 1px solid gray; */
+}
+
+/* Buttons */
+.dark-background .signup-btn {
+  border: none;
+}
+.signup-btn {
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 25px;
+}
+
+/* fotter */
+footer {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer span {
+  padding-bottom: 20px;
+}
+
+/* blue div */
+
+.blue-div div {
+  background-color: #3883f6;
+  border-radius: 10px;
+}
+
+.blue-div div strong {
+  color: white;
+  font-size: 24px;
+}
+.blue-div div p {
+  color: white;
+  font-size: 16px;
+}
+
+/* blue div */
+.blue-div {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blue-div div {
+  display: flex;
+}
+.blue-div div .signup-div {
+  display: flex;
+  flex-direction: column;
+}
+.blue-div div div {
+  margin: 50px;
+}
+/* quote div */
+.quote-div {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-div div {
+  width: 50%;
+}
+.quote-div div span {
+  float: right;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+/* image divs */
+.dark-background .hero-img {
+  width: 500px;
+}
+
+.illustration-img {
+  width: 200px;
+}
+
+/* Random pictures  */
+.random-div {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 500px;
+}
+.random-div .pictures {
+  display: flex;
+  justify-content: space-around;
+}
+.random-div .info-header {
+  margin: 0px auto;
+}
+
+/* Nav flex for hero / header*/
+nav {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+.nav-link-div {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.hero-div {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-main-div {
+  width: 35%;
+}
+.hero-main-div p {
+  margin: 20px;
+  margin-left: 0px;
+}
+/* image resizing */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* text - colors */
+.dark-background .hero-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.dark-background .hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.dark-background .hero-main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.quote-background .quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  opacity: 0.6;
+}
+
+/* backgrounds */
+.dark-background {
+  background-color: #1f2937;
+}
+.quote-background {
+  background-color: #e5e7eb;
+}
